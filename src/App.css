@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+}
+.user-management, .role-management {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 40%;
+}
